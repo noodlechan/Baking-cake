@@ -1,0 +1,82 @@
+body{
+
+  font-family: 'Nunito', sans-serif;
+	background: black url('img/bg-texture.jpg') repeat;
+	color: lime;
+}
+
+a{
+	color: #4FB69F;
+	text-decoration: none;
+}	
+
+
+h1{
+	font-size: 1.75em;
+	letter-spacing: -1.5px;
+	color: orange;
+}
+
+h2{
+	font-size: 1.5em;
+	color: orange;
+}
+
+.btn{
+	border: 1px solid white;
+	border-radius: 12.5px;
+
+	color:white;
+	background: lightblue url('img/text.png') no-repeat right top;
+	
+	padding: 15px 10px;
+	margin: 40px 0px;
+	
+	box-shadow: 5px 5px 5px white;
+	
+	
+	text-transform: uppercase;
+}
+
+.btn:hover{
+	background-color: darkblue;
+}
+
+ul.nav {
+	margin: 120px 0 0 0;
+	list-style: none;
+	float: right;
+	
+	
+}
+
+ul.nav li {
+	float: left; /*inline with one another*/
+	margin-right: 50px;
+
+}
+
+ul.nav li a {
+	color: lime;
+}
+
+#intro{
+	margin: 50px 0 75px; 0;
+}
+
+#new-cupcake img{
+	border: 8px solid white;
+	margin: 0 0 20px 0;
+}
+
+#featured-cupcake img{
+	border: 8px solid white;
+	margin: 20px 0 0 0;
+}
+
+#copyright{
+	border-top:8px solid grey;
+	padding: 10px 0px;
+	margin: 15px 0px;
+	text-align: center;
+}
